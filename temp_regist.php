@@ -25,6 +25,3 @@ For any further questions please contact <br><a href="mailto:marketing@signature
 </div>
 </body>
 </html>
-<?php
-}
-?>
