@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Greeting
-          command: echo Hello, world.
+          command: echo I'm still learning, LOL
       - run:
           name: Print the Current Time
           command: date
