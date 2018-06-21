@@ -13,7 +13,7 @@
     <td><div style="color:#990000; text-align:center">
    <!-- <strong>Temporarily Down for Maintenance</strong> -->
 		<p>Please await further instructions to review and submit your customization changes on or around July 9, 2018.<br>
-For any further questions please contact <br><a href="mailto:marketing@signaturetravelnetwork.com">marketing@signaturetravelnetwork.com</a>.</p>
+For any further questions please contact <br><a href="mailto:marketing@s***network.com">marketing@s***network.com</a>.</p>
 		<!--
     <p>We are performing scheduled maintenance.<br />
     We will be back online within 24 hours.<br />
