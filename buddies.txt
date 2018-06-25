@@ -22,5 +22,5 @@ Public Sub ConfigureAction(ByVal triggerEvent As Creo.PWS.Automation.PrinergyDat
     action.Subject = "array test"
     '
     ' --- Assign the value of the action parameter "To" --- 
-    action.To = "toshihashimoto@gmail.com"
+    action.To = "your_name@gmail.com"
 End Sub
