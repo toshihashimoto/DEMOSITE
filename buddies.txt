@@ -1,0 +1,26 @@
+Public Sub ConfigureAction(ByVal triggerEvent As Creo.PWS.Automation.PrinergyDataModel.PrinergyUserStartEvent, ByVal action As Creo.PWS.Automation.GenericDataModel.SendEmailAction)
+    Dim buddies() = {"Barb", "Carlos"} 
+    Dim result As String = String.Join(",", buddies)
+    
+    '
+    ' --- Assign the value of the action parameter "Cc" --- 
+    ' action.Cc = some value expression
+    '
+    ' --- Assign the value of the action parameter "Priority" --- 
+    action.Priority = Creo.PWS.Automation.GenericDataModel.MailPriority.Normal
+    '
+    ' --- Assign the value of the action parameter "Body" --- 
+    action.Body = result
+    '
+    ' --- Assign the value of the action parameter "Attachments" --- 
+    ' action.Attachments = some value expression
+    '
+    ' --- Assign the value of the action parameter "From" --- 
+    action.From = "automation@prinergy.com"
+    '
+    ' --- Assign the value of the action parameter "Subject" --- 
+    action.Subject = "array test"
+    '
+    ' --- Assign the value of the action parameter "To" --- 
+    action.To = "toshihashimoto@gmail.com"
+End Sub
