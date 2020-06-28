@@ -1,0 +1,26 @@
+#Firstnames from file 1
+#Lastnames from file 2
+#Age from file 3
+#and add all that to file 4
+
+$csv1 = import-csv "c:\file1.csv"
+$csv2 = import-csv "c:\file2.csv"
+$csv3 = import-csv "c:\file3.csv"
+
+$FirstName = $csv1.FirstName
+$LastName = $csv2.LastName
+$Age = $csv3.Age
+
+$counter = 0
+
+$result = 
+do{
+    [pscustomobject]@{
+        FirstName = $FirstName[$counter]
+        LastName = $LastName[$counter]
+        Age = $age[$counter]
+    }
+    $counter++
+}until($counter -eq $Firstname.length)
+
+$result | export-csv "c:\file4.csv" -NoTypeInformation -Force
